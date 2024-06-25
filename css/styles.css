@@ -211,3 +211,65 @@ height:4px;
 footer hr{
    width:700px; 
 }
+@media only screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    header .logo {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .hero {
+        padding: 2rem 1rem;
+        font-size: 1rem;
+    }
+
+    .mission, .projects {
+        padding: 1rem 0.5rem;
+    }
+
+    .project {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .project img {
+        width: 100%;
+    }
+
+    .partnersndawards {
+        flex-direction: column;
+    }
+
+    .aboutpic {
+        height: auto;
+        width: 100%;
+    }
+
+    .slider-wrapper .image-list .image-item {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        padding: 1rem 0.5rem;
+    }
+
+    footer hr {
+        width: 100%;
+    }
+
+
+}
