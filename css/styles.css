@@ -214,9 +214,11 @@ footer hr{
 @media only screen and (max-width: 600px) {
 
     header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
+        
+        display: flex;
+    }
+    .mission{
+        height: 300px;
     }
 
     header .logo {
@@ -258,10 +260,10 @@ footer hr{
     }
 
     .slider-wrapper .image-list .image-item {
-        width: 100%;
-        height: auto;
+        width:325px;
+        height: 400px;
+        object-fit: cover;
     }
-
     footer {
         height: auto;
         padding: 1rem 0.5rem;
