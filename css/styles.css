@@ -260,8 +260,8 @@ footer hr{
     }
 
     .slider-wrapper .image-list .image-item {
-        width:325px;
-        height: 400px;
+        width:200px;
+        height: 250px;
         object-fit: cover;
     }
     footer {
