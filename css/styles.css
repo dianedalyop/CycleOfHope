@@ -203,6 +203,33 @@ footer {
   top: -10px;
   bottom: -10px;
 }
+.about {
+  height: 500px;
+}
+.cycleimg {
+  width: 300px;
+  height: 300px;
+}
+.aboutpic {
+  padding: 0px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 2px 2px gray;
+}
+.about {
+  display: flex;
+}
+.aboutcontainer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.aboutparagraph {
+  padding: 60px;
+}
 
 footer hr {
   width: 700px;
@@ -246,6 +273,9 @@ footer hr {
     justify-content: center;
   }
 
+  main {
+    height: 1300px;
+  }
   .project {
     display: block;
     width: 100%;
