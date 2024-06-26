@@ -1,43 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us - Cycle of Hope and Change Initiative</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      button {
+        width: 170px;
+        height: 40px;
+        background-color: teal;
+        border: 2px;
+        border-radius: 5px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <div class="logo">Cycle of Hope and Change Initiative</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="donate.html">Donate</a></li>
-            </ul>
-        </nav>
+      <div class="logo">Cycle Of Hope</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="contact">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name">
-                
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-                
-                <label for="message">Message</label>
-                <textarea id="message" name="message"></textarea>
-                
-                <button type="submit">Send</button>
-            </form>
-        </section>
+      <section class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <div class="contact_column">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="contact_column">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="contact_column">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
     </main>
     <footer>
-        <p>Contact us at info@cohci.org | Follow us on social media</p>
+      <div class="partnersndawards">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwdU-ztGVHVFvMdZowewi5GkxZQ9XAK0lXNQ&s"
+          width="150"
+          height="150"
+          class="footsponsors"
+        />
+        <img
+          src="images/WhatsApp Image 2024-06-13 at 23.05.56_4b9a36b9.jpg"
+          width="200"
+          height="150"
+          class="footsponsors"
+        />
+        <img
+          src="images/WhatsApp Image 2024-06-13 at 22.46.46_f463509f.jpg"
+          width="150"
+          height="60"
+          class="footsponsors"
+        />
+        <img
+          src="images/WhatsApp Image 2024-06-13 at 22.46.46_b06b1b31.jpg"
+          width="150"
+          height="150"
+          class="footsponsors"
+        />
+      </div>
+      <p>
+        Contact us at cycleofhopeandchange@gmail.com | Follow us on social media
+      </p>
+      <a
+        href="https://www.instagram.com/cycleofhopeandchange?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        ><img
+          src="https://i.pinimg.com/736x/fc/26/50/fc26502254db62ce6b29debec1a56e80.jpg"
+          height="60"
+          width="60"
+      /></a>
+
+      <hr />
     </footer>
+
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
