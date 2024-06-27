@@ -27,26 +27,50 @@ header {
 }
 
 header .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+}
+.hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
 section {
   height: 100px;
 }
-
-nav ul li {
+nav {
+  width: 400px;
+}
+ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav li {
+  padding: 10px;
 }
 
-nav ul li a {
-  color: white;
+nav li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   text-decoration: none;
+  padding: 10px;
+  background-color: #ccc;
+  color: #010108;
+  border-radius: 10%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .hero {
@@ -57,14 +81,32 @@ nav ul li a {
 }
 .mission p {
   font-size: 18px;
-  margin: 12px 0;
+  margin: 30px 0;
   color: #777;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
 }
 
+.mission h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
 .mission,
 .projects {
   padding: 2rem 1rem;
   text-align: center;
+}
+.mission {
+  height: 250px;
+}
+.about {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
 }
 
 .project {
@@ -277,20 +319,30 @@ footer hr {
 @media only screen and (max-width: 600px) {
   header {
     display: flex;
-    height: 50px;
+    height: 80px;
+    flex-direction: column;
   }
+  nav li {
+    padding: 10px;
+    background-color: #ccc;
+    color: #010108;
+    border-radius: 10%;
+  }
+  li a {
+    color: #010108;
+  }
+  nav ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+  }
+
   .mission {
     height: 300px;
   }
 
   header .logo {
     font-size: 17px;
-  }
-
-  nav ul {
-    display: flex;
-    gap: 0.5rem;
-    width: 100%;
   }
 
   .hero {
@@ -369,6 +421,12 @@ footer hr {
   .logo img {
     height: 50px;
     width: 50px;
+  }
+  .contact_column input {
+    max-width: 300px;
+  }
+  #message {
+    max-width: 300px;
   }
 
   footer {
