@@ -82,13 +82,29 @@ ul {
 .mission p {
   font-size: 18px;
   margin: 30px 0;
-  color: #777;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 20px;
 }
-
+.contact p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+footer p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+.contact h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
 .mission h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -316,6 +332,50 @@ main {
 footer hr {
   width: 700px;
 }
+.donate {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donate form {
+  display: flex;
+  width: 80%;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #85adad;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.donate form input {
+  width: 400px;
+  border-radius: 5px;
+  border: 1px;
+  height: 60px;
+}
+.donate form button {
+  width: 120px;
+  height: 40px;
+  background-color: teal;
+  border: 1px;
+  border-radius: 5px;
+}
+.donate p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+.donate h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+.donate form label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+}
 @media only screen and (max-width: 600px) {
   header {
     display: flex;
@@ -342,7 +402,7 @@ footer hr {
   }
 
   header .logo {
-    font-size: 17px;
+    font-size: 22px;
   }
 
   .hero {
@@ -422,11 +482,26 @@ footer hr {
     height: 50px;
     width: 50px;
   }
+  .mission {
+    padding: 50px;
+  }
   .contact_column input {
-    max-width: 300px;
+    max-width: 220px;
   }
   #message {
-    max-width: 300px;
+    max-width: 220px;
+  }
+  .contact p {
+    padding: 20px;
+  }
+  .donate form input {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px;
+    height: 60px;
+  }
+  .donate p {
+    padding: 10px;
   }
 
   footer {
