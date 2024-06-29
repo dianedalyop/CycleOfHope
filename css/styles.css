@@ -383,13 +383,20 @@ footer hr {
     flex-direction: column;
   }
   nav li {
-    padding: 10px;
+    padding: 8px;
     background-color: #ccc;
     color: #010108;
     border-radius: 10%;
   }
-  li a {
+  nav li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    padding: 0px;
+    background-color: #ccc;
     color: #010108;
+    border-radius: 10%;
   }
   nav ul {
     display: flex;
@@ -503,7 +510,24 @@ footer hr {
   .donate p {
     padding: 10px;
   }
+  .contact {
+    height: 1000px;
+  }
+  #contact-form {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #85adad;
+    width: 70%;
+    justify-content: space-evenly;
+    border-radius: 15px;
+  }
 
+  body {
+    margin: 0%;
+    width: fit-content;
+  }
   footer {
     margin-top: 30px;
   }
