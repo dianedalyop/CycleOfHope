@@ -376,6 +376,29 @@ footer hr {
   font-weight: 300;
   font-size: 22px;
 }
+.persons {
+  display: flex;
+  width: 100%;
+  height: 800px;
+  margin-top: 80px;
+  justify-content: center;
+}
+.member {
+  display: flex;
+  background-color: #0f0e0e28;
+  height: 350px;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member img {
+  border-radius: 50%;
+}
+
 @media only screen and (max-width: 600px) {
   header {
     display: flex;
