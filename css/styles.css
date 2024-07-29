@@ -397,6 +397,13 @@ footer hr {
 
 .member img {
   border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.team h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
