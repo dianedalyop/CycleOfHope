@@ -386,13 +386,16 @@ footer hr {
 .member {
   display: flex;
   background-color: #0f0e0e28;
-  height: 350px;
+  height: 400px;
   width: 200px;
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
   flex-direction: column;
   align-items: center;
+}
+.member:hover {
+  background-color: #008080;
 }
 
 .member img {
