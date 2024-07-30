@@ -200,7 +200,7 @@ footer {
   height: 700px;
 }
 main {
-  height: 1200px;
+  height: fit-content;
 }
 
 .container-body {
@@ -395,7 +395,7 @@ footer hr {
   align-items: center;
 }
 .member:hover {
-  background-color: #008080;
+  color: #008080;
 }
 
 .member img {
@@ -465,9 +465,6 @@ footer hr {
     justify-content: center;
   }
 
-  main {
-    height: 1300px;
-  }
   .project {
     display: block;
     width: 100%;
@@ -567,5 +564,46 @@ footer hr {
 
   footer {
     margin-top: 30px;
+  }
+  .about {
+    height: 900px;
+  }
+  .persons {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  main {
+    height: fit-content;
+  }
+  .member {
+    display: flex;
+    background-color: #0f0e0e28;
+    height: 300px;
+    width: 150px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .member:hover {
+    color: #008080;
+  }
+
+  .member img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  .member p {
+    font-size: 12px;
+  }
+  .member h2 {
+    font-size: 10px;
   }
 }
