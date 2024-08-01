@@ -10,13 +10,36 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
     <style>
-      button {
-        width: 170px;
-        height: 40px;
-        background-color: teal;
-        border: 2px;
+      main {
+        height: 900px;
+      }
+      form {
+        display: flex;
+        background-color: #85adad;
+        height: 700px;
+        width: 900px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         border-radius: 5px;
-        color: white;
+      }
+      label {
+        font-family: "Poppins", sans-serif;
+      }
+      @media only screen and (max-width: 600px) {
+        form {
+          display: flex;
+          background-color: #85adad;
+          height: 500px;
+          width: 400px;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+        }
+        main {
+          height: 950px;
+        }
       }
     </style>
   </head>
@@ -43,21 +66,21 @@
           our team ,<br />
           you will be issued a certificate after working with us
         </p>
-        <p></p>
+
         <form
           action="https://formsubmit.co/cycleofhopeandchange@gmail.com"
           method="POST"
         >
-          <label for="name">Name:</label>
+          <label for="name">Name</label>
           <input type="text" id="name" name="name" required />
-          <br /><br />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-          <br /><br />
-          <label for="message">Message:</label>
           <br />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="message">Message</label>
+
           <textarea id="message" name="message" rows="4" required></textarea>
-          <br /><br />
+          <br />
           <div class="submitform_button">
             <input type="submit" value="Send" />
           </div>

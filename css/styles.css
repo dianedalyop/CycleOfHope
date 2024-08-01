@@ -212,7 +212,7 @@ footer {
 #message {
   width: 500px;
   height: 150px;
-  margin-left: 50px;
+
   display: inline-block;
   border-radius: 10px;
   border: 1px solid gray;
@@ -404,13 +404,13 @@ footer hr {
   display: flex;
   width: 100%;
   height: 800px;
-  margin-top: 80px;
+  margin-top: 40px;
   justify-content: center;
 }
 .member {
   display: flex;
   background-color: #0f0e0e28;
-  height: 400px;
+  height: 500px;
   width: 200px;
   padding: 20px;
   margin: 10px;
@@ -431,6 +431,10 @@ footer hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.about_member p {
+  font-family: "Poppins", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -595,7 +599,7 @@ footer hr {
   .persons {
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 1000px;
     margin-top: 80px;
     flex-wrap: wrap;
     justify-content: center;
@@ -607,7 +611,7 @@ footer hr {
   .member {
     display: flex;
     background-color: #0f0e0e28;
-    height: 300px;
+    height: 400px;
     width: 150px;
     padding: 20px;
     margin: 10px;
