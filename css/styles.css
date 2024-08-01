@@ -184,17 +184,41 @@ footer {
   flex-direction: column;
   align-items: flex-start;
 }
-#contact-form input {
+#name {
   width: 500px;
   height: 50px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+#email {
+  width: 500px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.submitform_button {
+  display: flex;
+  justify-content: center;
+}
+.submitform_button input {
+  background-color: #008080;
+  border: none;
+  width: 200px;
+  height: 40px;
   border-radius: 5px;
-  border: 1px;
 }
 #message {
   width: 500px;
   height: 150px;
-  border: 1px;
-  border-radius: 5px;
+  margin-left: 50px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+textarea {
+  border: 1px solid gray;
 }
 .contact {
   height: 700px;
@@ -522,7 +546,7 @@ footer hr {
   .mission {
     padding: 50px;
   }
-  .contact_column input {
+  input {
     max-width: 220px;
   }
   #message {
