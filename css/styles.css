@@ -603,10 +603,12 @@ footer hr {
     margin-top: 80px;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
   }
   main {
     height: fit-content;
+    display: flex;
+    flex-direction: column;
   }
   .member {
     display: flex;
