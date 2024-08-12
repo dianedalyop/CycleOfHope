@@ -511,7 +511,9 @@ footer hr {
     height: auto;
     width: 100%;
   }
-
+  .aboutparagraph {
+    padding: 30px;
+  }
   .slider-wrapper .image-list .image-item {
     width: 200px;
     height: 250px;
@@ -524,6 +526,9 @@ footer hr {
 
   footer hr {
     width: 100%;
+  }
+  .team {
+    height: 2000px;
   }
 
   .container-body {
@@ -594,7 +599,7 @@ footer hr {
     margin-top: 30px;
   }
   .about {
-    height: 900px;
+    height: 2000px;
   }
   .persons {
     display: flex;
